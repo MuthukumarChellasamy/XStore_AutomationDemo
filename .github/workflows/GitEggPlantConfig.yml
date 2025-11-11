@@ -1,6 +1,4 @@
-name: "YOUR WORK FLOW NAME"
-
-# Configure which branch that will trigger Eggplant DAI GitHub Action
+name: "XStore_POC"
  on:
  push:
     branches:
