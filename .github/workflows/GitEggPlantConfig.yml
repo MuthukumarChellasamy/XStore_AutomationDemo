@@ -13,7 +13,7 @@ jobs:
     strategy:               # Optional configuration using matrix strategy
       max-parallel: 1       # To limit number of parallel jobs
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]  # Supported OS for Eggplant DAI Action
+        os: [windows-latest]  # Supported OS for Eggplant DAI Action
  
     runs-on: Self-hosted   # Selects OS dynamically from matrix
     name: Run Test Configuration
