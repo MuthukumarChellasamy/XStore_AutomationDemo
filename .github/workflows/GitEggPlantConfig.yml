@@ -15,7 +15,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]  # Supported OS for Eggplant DAI Action
  
-    runs-on: ${{ matrix.os }}   # Selects OS dynamically from matrix
+    runs-on: Self-hosted   # Selects OS dynamically from matrix
     name: Run Test Configuration
  
     steps:
