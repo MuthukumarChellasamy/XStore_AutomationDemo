@@ -1,7 +1,7 @@
 name: "XStore_POC"
  
 on:
-  push:                     # <-- Must be indented under "on"
+  push:                     # <-- Must be indented "on"
     branches:
       - main
   pull_request:             # <-- Also properly indented under "on"
